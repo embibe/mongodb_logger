@@ -101,7 +101,7 @@ module MongodbLogger
 
     def configure
       @db_configuration = {
-        host: 'localhost',
+        host: '127.0.0.1',
         port: 27017,
         capsize: DEFAULT_COLLECTION_SIZE,
         ssl: false}.merge(resolve_config).with_indifferent_access
