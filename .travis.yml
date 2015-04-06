@@ -23,11 +23,6 @@ sudo: false
 notifications:
   email: false
 
-branches:
-  only:
-    - master
-    - development
-
 matrix:
   allow_failures:
     - rvm: jruby-19mode
