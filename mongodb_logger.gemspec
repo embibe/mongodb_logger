@@ -30,7 +30,9 @@ Gem::Specification.new do |gem|
   gem.add_dependency "multi_json",      ">= 1.8"
   gem.add_dependency "activesupport",   ">= 3.1.0"
   gem.add_dependency "sprockets",       ">= 2.0.0"
-  gem.add_dependency "sinatra",         ">= 1.3"
+  # Rails 5 requires sinatra/master
+  # https://github.com/sinatra/sinatra/issues/1135
+  # gem.add_dependency "sinatra",         ">= 1.3"
   gem.add_dependency "erubis",          "~> 2.7"
   gem.add_dependency "mustache",        "~> 0.99"
   gem.add_dependency "vegas",           "~> 0.1.8"
