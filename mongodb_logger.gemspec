@@ -29,7 +29,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "rake",            "~> 10.0"
   gem.add_dependency "multi_json",      ">= 1.8"
   gem.add_dependency "activesupport",   ">= 3.1.0"
-  gem.add_dependency "sprockets",       ">= 2.0.0"
+  gem.add_dependency "sprockets",       "3.7.2"
   # Rails 5 requires sinatra/master
   # https://github.com/sinatra/sinatra/issues/1135
   # gem.add_dependency "sinatra",         ">= 1.3"
